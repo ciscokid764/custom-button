@@ -1,0 +1,36 @@
+{
+    "name": "@ciscokid764/custom-button",
+    "module": "/dist/custom-button",
+    "description": "A custom button for ReactJS projects.",
+    "version": "1.0.0",
+    "author": {
+        "name": "Ian Pilgrim",
+        "email": "ipi38482@gmail.com"
+    },
+    "homepage": "https://github.com/ciscokid764/custom-button#readme",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:ciscokid764/custom-button.git"
+    },
+    "liscence": "MIT",
+    "scripts": {
+        "build": "webpack --config webpack.config.js",
+        "docs": "start-storybook -p 9001 -c .storybook",
+        "docs:build": "build-storybook -c .storybook -o docs"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.3.3",
+        "@babel/preset-env": "^7.3.1",
+        "@babel/preset-react": "^7.0.0",
+        "@storybook/addon-info": "^4.1.12",
+        "@storybook/components": "^4.1.12",
+        "@storybook/react": "^4.1.12",
+        "babel-loader": "^8.0.5",
+        "clean-webpack-plugin": "^1.0.1",
+        "react": "^16.8.2",
+        "storybook-addon-jsx": "^6.0.0",
+        "uglifyjs-webpack-plugin": "^2.1.1",
+        "webpack": "^4.29.5",
+        "webpack-cli": "^3.2.3"
+    }
+}
